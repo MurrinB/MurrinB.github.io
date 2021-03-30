@@ -40,6 +40,7 @@ h1:hover {
 /* PARAGRAPH ELEMENTS */
 p {
     font-family: Cambria;
+    font-weight: bold;
     text-align: justify;
     letter-spacing: 1px;
     font-size: 20px;
@@ -47,10 +48,7 @@ p {
     padding-right: 20px;
 }
 
-p:hover {
-    transition: transform 1s;
-    transform: scale(1.01);
-}
+
 
 /* CENTER ALL TEXT WITH CENTER CLASS */
 .center {
@@ -86,7 +84,6 @@ img {
 img:hover {
     filter: grayscale(5%);
     transition: transform 1s;
-    transform: scale(1.1);
 }
 
 /* MEDIA RULE TO ADJUST TO SCREEN SIZE */
@@ -101,6 +98,7 @@ img:hover {
 footer {
     padding: 2%;
     background-color: white;
+    text-align: center;
 }
 
 /* END GENERAL STYLING */
@@ -327,7 +325,7 @@ footer {
     width: 50%;
     padding: 10px;
     padding-top: 3%;
-    height: 400px;
+    height: 800px;
     background-color: #f2f2f2;
 }
 
@@ -342,8 +340,9 @@ footer {
     width: 50%;
     padding: 10px;
     padding-top: 1.9%;
-    height: 400px;
+    height: 800px;
     background-color:  rgb(50, 0, 73);
+    overflow: auto;
 }
 
 .column-tall {
